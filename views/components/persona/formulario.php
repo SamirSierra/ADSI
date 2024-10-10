@@ -13,9 +13,7 @@ Error
 </h5>
 <?php $_SESSION["error400"]; ?>
 </div>
-
-<?php endif; ?>
-
+<?php endif;?>
 
 <!-- Formulario utilizado para registrar y editar los datos de la persona -->
 <form action="<?= isset($persona) ? route('persona/actualizar') : route('persona/guardar') ?>"
